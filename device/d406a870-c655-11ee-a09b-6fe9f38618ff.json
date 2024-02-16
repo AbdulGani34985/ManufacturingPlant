@@ -1,0 +1,78 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "5d27d670-c425-11ee-a0e0-15431c20b1f9"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "d406a870-c655-11ee-a09b-6fe9f38618ff"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "d406a870-c655-11ee-a09b-6fe9f38618ff"
+    },
+    "label" : "",
+    "name" : "Assembly Line1.1",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "assembly_line"
+  },
+  "credentials" : {
+    "credentialsId" : "Hw1VnCugvgOTKwf5HYmQ",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "7e5ef350-c425-11ee-a09b-6fe9f38618ff"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "d406a870-c655-11ee-a09b-6fe9f38618ff"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1707378879016,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1707378879016,
+      "longValue" : 1707378879013,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}
