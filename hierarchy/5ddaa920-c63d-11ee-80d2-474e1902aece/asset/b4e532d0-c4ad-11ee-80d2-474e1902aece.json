@@ -1,0 +1,79 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "7bbd1f50-c425-11ee-a1af-a7e67e72b29c"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "5ddaa920-c63d-11ee-80d2-474e1902aece"
+    },
+    "externalId" : {
+      "entityType" : "ASSET",
+      "id" : "b4e532d0-c4ad-11ee-80d2-474e1902aece"
+    },
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "b4e532d0-c4ad-11ee-80d2-474e1902aece"
+    },
+    "label" : null,
+    "name" : "Manufacturing Plant2",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "5ddaa920-c63d-11ee-80d2-474e1902aece"
+    },
+    "type" : "manufacturing_plant"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "b4e532d0-c4ad-11ee-80d2-474e1902aece"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e4731e40-c4ad-11ee-9761-21e4bffd617b"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "address",
+      "lastUpdateTs" : 1707220464180,
+      "longValue" : null,
+      "strValue" : "Connaught Place, New Delhi, Delhi, 110001, India"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "imageUrl",
+      "lastUpdateTs" : 1707225943251,
+      "longValue" : null,
+      "strValue" : "https://imgs.search.brave.com/PKExfWNlKRAIMweQBnVGTr9111dlpOYzF5IDrasDBsA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/NDE5NzIyODk2MTUt/ZGU1MDJiYTc1OTM5/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4elpX/RnlZMmg4TVRCOGZH/WnNiMjl5SlRJd2NH/eGhibnhsYm53d2ZI/d3dmSHg4TUE9PQ"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 28.629,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1707220492813,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 77.2167,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1707220515420,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  }
+}
