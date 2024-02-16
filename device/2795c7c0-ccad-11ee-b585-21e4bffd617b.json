@@ -49,14 +49,6 @@
       "lastUpdateTs" : 1708075456143,
       "longValue" : null,
       "strValue" : null
-    }, {
-      "booleanValue" : null,
-      "doubleValue" : null,
-      "jsonValue" : null,
-      "key" : "name",
-      "lastUpdateTs" : 1708075496586,
-      "longValue" : null,
-      "strValue" : "ab"
     } ],
     "SHARED_SCOPE" : [ ]
   }
