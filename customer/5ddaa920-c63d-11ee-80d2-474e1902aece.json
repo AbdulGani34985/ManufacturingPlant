@@ -1,0 +1,36 @@
+{
+  "entityType" : "CUSTOMER",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "",
+      "allowWhiteLabeling" : true,
+      "homeDashboardId" : null,
+      "homeDashboardHideToolbar" : true
+    },
+    "address" : null,
+    "address2" : null,
+    "city" : null,
+    "country" : null,
+    "customerId" : null,
+    "email" : null,
+    "externalId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "5ddaa920-c63d-11ee-80d2-474e1902aece"
+    },
+    "id" : {
+      "entityType" : "CUSTOMER",
+      "id" : "5ddaa920-c63d-11ee-80d2-474e1902aece"
+    },
+    "name" : "XP",
+    "ownerId" : null,
+    "parentCustomerId" : null,
+    "phone" : null,
+    "state" : null,
+    "title" : "XP",
+    "zip" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
